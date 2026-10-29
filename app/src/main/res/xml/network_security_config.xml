@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ISO 27400: prohíbe tráfico HTTP sin cifrar. Hoy la app no usa Internet;
+     si en la Unidad 3/4 se agrega una API, solo podrá usar HTTPS/TLS. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false" />
+</network-security-config>
